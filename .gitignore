@@ -1,0 +1,32 @@
+# Keil build outputs
+OBJ/
+Listings/
+*.o
+*.d
+*.crf
+*.lst
+*.axf
+*.hex
+*.map
+*.lnp
+*.htm
+*.build_log.htm
+
+# Keil per-user/session files
+*.uvguix.*
+*.uvoptx
+*.bak
+*.Bak
+JLinkSettings.ini
+DebugConfig/
+
+# Local secrets and machine-specific configuration
+HARDWARE/esp8266/wifi_config.h
+# Unused legacy header containing historical network examples
+HARDWARE/esp8266/esp8266.h
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
