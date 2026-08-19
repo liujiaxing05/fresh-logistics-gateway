@@ -25,8 +25,7 @@ int main(void)
 
     /* PG13 唤醒 BLE 模块，USART2 提供与下层设备的透明串口链路。 */
     Ble_IoInit();
-    usart2_init(115200);
-
+    
     /* 创建通信服务、业务线程以及周期遥测/心跳定时器。 */
     TaskInit();
     return 0;
